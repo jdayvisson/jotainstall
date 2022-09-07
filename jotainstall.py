@@ -25,7 +25,7 @@ print("""\n
 #VARIAVEIS PARA LIMPAR E RETORNAR AO MENU +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 limpar = 'clear'
-iniciar = 'python funcoes.py'
+iniciar = 'python jotainstall.py'
 sair = 'cd ~'
 
 #FIM+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
