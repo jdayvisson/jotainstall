@@ -7,6 +7,10 @@
 <b>PARA BAIXAR O JOTAINSTALL:</b>
        
        * git clone https://github.com/jdayvisson/jotainstall
+       
+       * cd jotainstall
+       
+       * python jotainstall.py
       
  
  # As opções de ferramentas disponivel no momento:
