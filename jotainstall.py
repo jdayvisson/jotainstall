@@ -44,7 +44,7 @@ sherlock = 'sudo apt update; git clone https://github.com/sherlock-project/sherl
 
 spiderfoot = 'sudo apt update; git clone https://github.com/smicallef/spiderfoot.git; cd spiderfoot; sudo pip install -r requirements.txt; wget https://github.com/smicallef/spiderfoot/archive/v3.5.tar.gz; tar zxvf v3.5.tar.gz; cd spiderfoot-3.5; sudo pip install -r requirements.txt; cd ..; sudo cp -rf * /usr/bin; cd ..; sudo rm -r spiderfoot'
 
-seeker = 'sudo apt update; git clone https://github.com/thewhiteh4t/seeker; cd seeker; sudo chmod 777 install.sh; sudo ./install.sh; '
+seeker = 'sudo apt update; sudo git clone https://github.com/thewhiteh4t/seeker; cd seeker; sudo chmod 777 install.sh; sudo ./install.sh; '
 
 #FIM ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
