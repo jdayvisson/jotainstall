@@ -136,7 +136,7 @@ else:
 			
 	if consulta == 0:
 		ferr = os.system(sair)
-		print(f'\n Opa! Valeu e volte sempre ;)')
+		print(f'\n ****** Opa! Valeu e volte sempre ;) ******')
 		time.sleep(3)
 		
 		
