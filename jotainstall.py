@@ -65,7 +65,7 @@ def menu_principal():
     \033[1;33m   [5] SPIDERFOOT
     \033[;001m   [6] SEEKER
     
-    \033[1;92m   [0] SAIR\033[0;0m
+    \033[1;92m   [7] SAIR\033[0;0m
         
     
     ''')	
