@@ -2,7 +2,7 @@
 
 import os, sys, time
 
-clear
+
 
 print("""\n
 		   _       _          _           _        _ _ 
