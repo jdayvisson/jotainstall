@@ -49,6 +49,7 @@ seeker = 'sudo apt update; sudo git clone https://github.com/thewhiteh4t/seeker;
 #FIM ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 lim = os.system(limpar)
+menu = os.system(iniciar)
 
 #MENU DE OPÇÕES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -76,7 +77,7 @@ menu_principal()
 #LAÇO DE REPETIÇÃO CASO A OPÇÃO SEJA INVÁLIDA +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 consulta = int(input('\033[;1m Escolha a opção desejada: '))
-while consulta < 0 or consulta > 8:
+while consulta < 0 or consulta > 7:
     consulta = int(input('\n Opção inválida. Por favor, selecione uma das opções do menu: '))
 
 #FIM ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -134,7 +135,7 @@ else:
 		limpe = os.system(limpar)
 		menu = os.system(iniciar)
 			
-	if consulta == 0:
+	if consulta == 7:
 		ferr = os.system(sair)
 		print(f'\n ****** Opa! Valeu e volte sempre ;) ******')
 		time.sleep(3)
