@@ -2,6 +2,8 @@
 
 import os, sys, time
 
+lim = os.system(limpar)
+
 print("""\n
 		   _       _          _           _        _ _ 
 		  (_) ___ | |_ __ _  (_)_ __  ___| |_ __ _| | |
@@ -48,8 +50,6 @@ seeker = 'sudo apt update; sudo git clone https://github.com/thewhiteh4t/seeker;
 
 #FIM ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-lim = os.system(limpar)
-menu = os.system(iniciar)
 
 #MENU DE OPÇÕES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
