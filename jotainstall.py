@@ -44,6 +44,7 @@ sherlock = 'sudo apt update; git clone https://github.com/sherlock-project/sherl
 
 spiderfoot = 'sudo apt update; git clone https://github.com/smicallef/spiderfoot.git; cd spiderfoot; sudo pip install -r requirements.txt; wget https://github.com/smicallef/spiderfoot/archive/v3.5.tar.gz; tar zxvf v3.5.tar.gz; cd spiderfoot-3.5; sudo pip install -r requirements.txt; cd ..; sudo cp -rf * /usr/bin; cd ..; sudo rm -r spiderfoot'
 
+seeker = 'sudo apt update; git clone https://github.com/thewhiteh4t/seeker; cd seeker; sudo chmod 777 install.sh; sudo ./install.sh; '
 
 #FIM ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -60,8 +61,9 @@ def menu_principal():
     \033[1;33m   [3] NPHISHER
     \033[;001m   [4] SHERLOCK
     \033[1;33m   [5] SPIDERFOOT
+    \033[;001m   [6] SEEKER
     
-    \033[1;92m   [6] SAIR\033[0;0m
+    \033[1;92m   [0] SAIR\033[0;0m
         
     
     ''')	
@@ -122,8 +124,16 @@ else:
 		time.sleep(3)
 		limpe = os.system(limpar)
 		menu = os.system(iniciar)
-			
+	
 	if consulta == 6:
+		ferr = os.system(seeker)		
+		lim = os.system(limpar)
+		print('\n \n \n ### Instalação Concluída! ###')
+		time.sleep(3)
+		limpe = os.system(limpar)
+		menu = os.system(iniciar)
+			
+	if consulta == 0:
 		ferr = os.system(sair)
 		print(f'\n Opa! Valeu e volte sempre ;)')
 		time.sleep(3)
