@@ -34,17 +34,17 @@ sair = 'cd ~'
 #VARIÁVEIS DOS PROGRAMAS QUE VÃO SER INSTALADOS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-exiftool = 'sudo apt update; sudo apt install libimage-exiftool-perl; git clone https://github.com/exiftool/exiftool.git; cd exiftool; sudo cp -rf * /usr/bin; cd ..; sudo rm -r exiftool'
+exiftool = 'sudo apt update; sudo apt install libimage-exiftool-perl; git clone https://github.com/exiftool/exiftool.git; cd exiftool' #sudo cp -rf * /usr/bin; cd ..; sudo rm -r exiftool'
 
-osintgram = 'git clone https://github.com/Datalux/Osintgram; sudo apt update; sudo apt-get install crackmapexec; cd Osintgram; sudo pip3 install -r requirements.txt; cd config; nano credentials.ini; cd ..; sudo cp -rf * /usr/bin; cd ..; sudo rm -r Osintgram'
+osintgram = 'git clone https://github.com/Datalux/Osintgram; sudo apt update; sudo apt-get install crackmapexec; cd Osintgram; sudo pip3 install -r requirements.txt; cd config; nano credentials.ini; cd ..' #sudo cp -rf * /usr/bin; cd ..; sudo rm -r Osintgram'
 
-nphisher = 'sudo apt update; sudo tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin; git clone https://github.com/rdxlr/NPhisher; cd NPhisher; sudo cp -rf * /usr/bin; cd ..; sudo rm -r NPhisher'
+nphisher = 'sudo apt update; sudo tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin; git clone https://github.com/rdxlr/NPhisher; cd NPhisher' #sudo cp -rf * /usr/bin; cd ..; sudo rm -r NPhisher'
 
-sherlock = 'sudo apt update; git clone https://github.com/sherlock-project/sherlock.git; cd sherlock; python3 -m pip install -r requirements.txt; cd sherlock; sudo cp -rf * /usr/bin; cd ..; cd ..; sudo rm -r sherlock'
+sherlock = 'sudo apt update; git clone https://github.com/sherlock-project/sherlock.git; cd sherlock; python3 -m pip install -r requirements.txt; cd sherlock' #sudo cp -rf * /usr/bin; cd ..; cd ..; sudo rm -r sherlock'
 
-spiderfoot = 'sudo apt update; git clone https://github.com/smicallef/spiderfoot.git; cd spiderfoot; sudo pip install -r requirements.txt; wget https://github.com/smicallef/spiderfoot/archive/v3.5.tar.gz; tar zxvf v3.5.tar.gz; cd spiderfoot-3.5; sudo pip install -r requirements.txt; cd ..; sudo cp -rf * /usr/bin; cd ..; sudo rm -r spiderfoot'
+spiderfoot = 'sudo apt update; git clone https://github.com/smicallef/spiderfoot.git; cd spiderfoot; sudo pip install -r requirements.txt; wget https://github.com/smicallef/spiderfoot/archive/v3.5.tar.gz; tar zxvf v3.5.tar.gz; cd spiderfoot-3.5; sudo pip install -r requirements.txt; cd ..' #sudo cp -rf * /usr/bin; cd ..; sudo rm -r spiderfoot'
 
-seeker = 'sudo apt update; sudo git clone https://github.com/thewhiteh4t/seeker; cd seeker; sudo chmod 777 install.sh; sudo ./install.sh; sudo python seeker'
+seeker = 'sudo apt update; sudo git clone https://github.com/thewhiteh4t/seeker; cd seeker; sudo chmod 777 install.sh; sudo ./install.sh' #sudo python seeker'
 
 #FIM ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
