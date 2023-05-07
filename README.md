@@ -50,5 +50,12 @@
         
         * No terminal digite: sf.py -l 127.0.0.1:5001
   
-  - Observação: Após executar, basta acessar a URL informada no caso: http://127.0.0.1:5001  
+  - Observação: Após executar, basta acessar a URL informada no caso: http://127.0.0.1:5001
+
+<br>  
+- <b>SEEKER</b> - Seeker é uma ferramenta desenvolvida em Python que mostra de forma prática como alguns aplicativos ou ferramentas obtém a localização atual e informações sobre um dispositivo. O conceito por trás do Seeker é simples,hospedar uma página falsa que solicita sua localização.
+        
+        * Após a instalação digite: 
+        * $ cd seeker
+        * $ sudo python seeker.py
 
